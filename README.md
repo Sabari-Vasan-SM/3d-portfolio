@@ -1,7 +1,7 @@
-# My Portfolio Wesbite - Overview 🚀
+# My Portfolio Website - Overview
 
-This repository contains the open source version of my porfolio website.
-Do check it out!
+This repository contains the open source version of a 3D portfolio website.
+Feel free to customize it as your own.
 
 ## Instructions 🛠️
 
