@@ -1,0 +1,98 @@
+export const projectsData = [
+    {
+        id: 1,
+        title: "Bike Buddy",
+        category: "Service Management",
+        tools: "React, Node.js, MongoDB",
+        image: "/images/project-1.png",
+        links: {
+            live: "https://cartrabbit-alpha.vercel.app/",
+            github: "https://github.com/Sabari-Vasan-SM/Bike-Buddy.git",
+        },
+        description: "A comprehensive bike service management platform that connects customers with service providers, enabling easy booking, tracking, and management of bike services.",
+    },
+    {
+        id: 2,
+        title: "Password Saver",
+        category: "Mobile App",
+        tools: "React Native",
+        image: "/images/project-2.png",
+        links: {
+            live: "https://github.com/Sabari-Vasan-SM/PasswordSaver",
+            github: "https://github.com/Sabari-Vasan-SM/PasswordSaver.git",
+        },
+        description: "A secure and user-friendly React Native application for storing and managing all your passwords with ease.",
+    },
+    {
+        id: 3,
+        title: "Air Quality Monitor",
+        category: "IoT Dashboard",
+        tools: "React, TailwindCSS, ESP32",
+        image: "/images/project-3.png",
+        links: {
+            live: "https://airqualitymonitor1.netlify.app/",
+            github: "https://github.com/Sabari-Vasan-SM/Air-Quality-Monitor-With-NODE-MCU.git",
+        },
+        description: "An IoT-based air quality monitoring system using ESP32 and real-time dashboards built with React and TailwindCSS.",
+    },
+    {
+        id: 4,
+        title: "Billventory",
+        category: "Retail Solution",
+        tools: "React, Node.js, PostgreSQL",
+        image: "/images/project-4.png",
+        links: {
+            live: "https://billventory.vasan.tech/",
+            github: "https://github.com/Sabari-Vasan-SM/Billventory.git",
+        },
+        description: "An all-in-one digital solution that streamlines the retail experience by integrating inventory control, billing, and sales management into a single platform.",
+    },
+    {
+        id: 5,
+        title: "E-Learning Platform",
+        category: "Online Education",
+        tools: "React, Node.js, MongoDB",
+        image: "/images/project-5.png",
+        links: {
+            live: "https://github.com/Sabari-Vasan-SM/E-learning-Platform",
+            github: "https://github.com/Sabari-Vasan-SM/E-learning-Platform.git",
+        },
+        description: "A comprehensive online learning platform with course management, video streaming, and progress tracking.",
+    },
+    {
+        id: 6,
+        title: "Sport Connect",
+        category: "Social Platform",
+        tools: "MERN Stack",
+        image: "/images/project-6.png",
+        links: {
+            live: "https://github.com/Sabari-Vasan-SM/Sport-Connect-SIH-",
+            github: "https://github.com/Sabari-Vasan-SM/Sport-Connect-SIH-.git",
+        },
+        description: "A social platform connecting sports enthusiasts, organizing events, and building communities around sports.",
+    },
+    {
+        id: 7,
+        title: "Gear Fault Detection",
+        category: "Computer Vision",
+        tools: "YOLOv8, Python, OpenCV",
+        image: "/images/project-7.png",
+        links: {
+            live: "https://github.com/Final-Year-Projects-KEC/Final-Code-With-Accuray-And-Graph-Metrics",
+            github: "https://github.com/Final-Year-Projects-KEC/Final-Code-With-Accuray-And-Graph-Metrics",
+        },
+        description: "An intelligent computer vision system for detecting and localizing gear defects using YOLOv8 Oriented Object Detection (OBB).",
+    },
+    {
+        id: 8,
+        title: "Admission Management",
+        category: "University System",
+        tools: "React, Node.js, MongoDB",
+        image: "/images/project-8.png",
+        links: {
+            live: "https://admissionmanagement.netlify.app/",
+            github: "https://github.com/Sabari-Vasan-SM/Admisssion-management.git",
+        },
+        description: "A comprehensive system for managing student admissions, applications, and enrollment processes.",
+    },
+];

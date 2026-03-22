@@ -1,5 +1,6 @@
 import { MdArrowOutward, MdCopyright } from "react-icons/md";
 import "./styles/Contact.css";
+import { contactData } from "../data/contactData";
 
 const Contact = () => {
   return (
@@ -10,51 +11,37 @@ const Contact = () => {
           <div className="contact-box">
             <h4>Email</h4>
             <p>
-              <a href="mailto:your.email@example.com" data-cursor="disable">
-                your.email@example.com
+              <a href={`mailto:${contactData.email}`} data-cursor="disable">
+                {contactData.email}
               </a>
             </p>
-            <h4>Education</h4>
-            <p>BSc in Computer Science</p>
+            <h4>Phone</h4>
+            <p>
+              <a href={`tel:${contactData.phone}`} data-cursor="disable">
+                {contactData.phone}
+              </a>
+            </p>
+            <h4>Location</h4>
+            <p>{contactData.location}</p>
           </div>
           <div className="contact-box">
             <h4>Social</h4>
-            <a
-              href="https://github.com/your-username"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Github <MdArrowOutward />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/your-linkedin"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Linkedin <MdArrowOutward />
-            </a>
-            <a
-              href="https://x.com/your-handle"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Twitter <MdArrowOutward />
-            </a>
-            <a
-              href="https://www.instagram.com/your-handle"
-              target="_blank"
-              data-cursor="disable"
-              className="contact-social"
-            >
-              Instagram <MdArrowOutward />
-            </a>
+            {Object.values(contactData.social).map((social, index) => (
+              <a
+                key={index}
+                href={social.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                data-cursor="disable"
+                className="contact-social"
+              >
+                {social.name} <MdArrowOutward />
+              </a>
+            ))}
           </div>
           <div className="contact-box">
             <h2>
-              Designed and Developed <br /> by <span>Your Name</span>
+              Designed and Developed <br /> by <span>{contactData.name}</span>
             </h2>
             <h5>
               <MdCopyright /> 2025

@@ -1,0 +1,61 @@
+export const skillsData = {
+    summary: "A diverse skill set spanning programming languages, web technologies, and engineering tools.",
+    categories: {
+        Frontend: [
+            "HTML5",
+            "CSS3",
+            "JavaScript",
+            "TypeScript",
+            "React",
+            "React Native",
+            "Next.js",
+            "Flutter",
+        ],
+        Backend: [
+            "Node.js",
+            "Express.js",
+            "FastAPI",
+            "REST API",
+            "Webhooks",
+            "WebSockets",
+            "Python",
+        ],
+        Database: ["MongoDB", "PostgreSQL", "Supabase"],
+        "DevOps & Cloud": [
+            "Git",
+            "GitHub",
+            "Docker",
+            "Nginx",
+            "Jenkins",
+            "GitHub Actions",
+        ],
+        Deployment: ["Vercel", "Netlify", "AWS", "Render"],
+        "Design Tools": ["Miro", "Canva"],
+        "AI Tools": ["ChatGPT", "Gemini", "Claude", "DeepSeek", "Perplexity"],
+        Others: [
+            "VS Code",
+            "Antigravity",
+            "Cursor",
+            "Windsurf",
+            "Android Studio",
+            "FileZilla",
+            "PuTTY",
+            "Stitch",
+            "Swagger",
+            "Postman",
+            "Arduino",
+        ],
+    },
+};
+
+// Featured tech stack for the 3D visualization
+export const featuredTechStack = [
+    "React",
+    "Next.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "PostgreSQL",
+    "TypeScript",
+    "JavaScript",
+];
